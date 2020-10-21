@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "./node_modules/bundler/node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "bundler": "../bundler"
+  }
+}
